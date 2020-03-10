@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MyNavbar from './components/navbar';
+import MyJumbotron from './components/jumbotron';
 
 // Add css files
 import 'bootstrap/dist/css/bootstrap.min.css'; // CSS from Bootstrap
@@ -16,6 +18,8 @@ import Panel2 from '../components/panel2';
 const Home = (props) => {
     return (
         <>
+        <MyNavbar />
+        <MyJumbotron />
         <Panel1 heading="The First Heading" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum error ut magnam temporibus.
                     Asperiores dignissimos repellendus error voluptas, obcaecati molestiae suscipit modi illo sed
                     aspernatur. Labore eius nulla sequi harum." heading2="Will Catch Your Eye" imageURL="../src/img/1.jpg"/>
