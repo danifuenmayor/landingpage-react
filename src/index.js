@@ -13,10 +13,10 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap';
 
-import Contact from './componentes/contact';
-import Portafolio from './componentes/portafolio';
-import Panel1 from '../components/panel1';
-import Panel2 from '../components/panel2';
+import Contact from './components/contact';
+import Portafolio from './components/portafolio';
+import Panel1 from './components/panel1';
+import Panel2 from './components/panel2';
 
 const Home = (props) => {
     return (
