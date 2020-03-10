@@ -12,6 +12,9 @@ import './index.css'; // My own CSS
 import 'jquery';
 import 'popper.js';
 import 'bootstrap';
+
+import Contact from './componentes/contact';
+import Portafolio from './componentes/portafolio';
 import Panel1 from '../components/panel1';
 import Panel2 from '../components/panel2';
 
@@ -27,6 +30,9 @@ const Home = (props) => {
                                     Voluptates dolor minus sed temporibus quidem itaque beatae expedita vel fuga quam
                                     pariatur vero facilis quasi, reprehenderit, incidunt repellendus, facere repudiandae
                             ipsa?" imageURL="../src/img/2.jpg"/>
+        <Portafolio/>
+        <Contact/>
+                            
         </>
     );
 }
