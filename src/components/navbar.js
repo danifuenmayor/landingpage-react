@@ -10,16 +10,16 @@ function MyNavbar(props) {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <a className="nav-link" href="#panel1">{props.h1}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Services</a>
+                        <a className="nav-link" href="#services">{props.h2}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio</a>
+                        <a className="nav-link" href="#portfolio">{props.h3}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
+                        <a className="nav-link" href="#contact">{props.h4}</a>
                     </li>
                 </ul>
             </div>

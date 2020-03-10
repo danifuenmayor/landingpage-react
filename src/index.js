@@ -21,18 +21,22 @@ import Panel2 from './components/panel2';
 const Home = (props) => {
     return (
         <>
-        <MyNavbar />
-        <MyJumbotron />
-        <Panel1 heading="The First Heading" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum error ut magnam temporibus.
+            <MyNavbar h1="About" h2="Services" h3="Portfolio" h4="Contact" />
+            <MyJumbotron imgURL="../src/img/bg.jpg" h1="One Page Wonder" h2="Will knock Your Socks Off" />
+            <Panel1 heading="The First Heading" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum error ut magnam temporibus.
                     Asperiores dignissimos repellendus error voluptas, obcaecati molestiae suscipit modi illo sed
-                    aspernatur. Labore eius nulla sequi harum." heading2="Will Catch Your Eye" imageURL="../src/img/1.jpg"/>
-        <Panel2 heading="The Second Heading" heading2="Is Pretty Cool Too" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    aspernatur. Labore eius nulla sequi harum." heading2="Will Catch Your Eye" imageURL="../src/img/1.jpg" />
+            <Panel2 heading="The Second Heading" heading2="Is Pretty Cool Too" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                     Voluptates dolor minus sed temporibus quidem itaque beatae expedita vel fuga quam
                                     pariatur vero facilis quasi, reprehenderit, incidunt repellendus, facere repudiandae
-                            ipsa?" imageURL="../src/img/2.jpg"/>
-        <Portafolio/>
-        <Contact/>
-                            
+                            ipsa?" imageURL="../src/img/2.jpg" />
+            <Portafolio h1="Portfolio" description="Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." imgURL="http://placehold.it/700x400?" name="Project name" description2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" />
+            <Contact h1="Contact" description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex in velit voluptas consequatur est
+                            dolorum
+                            adipisci ipsa deserunt, officiis rem qui voluptatibus aut reiciendis debitis dolor mollitia laborum
+                            impedit
+                    deleniti." email="Your E-mail" message="Your Message" submit="Submit" />
+
         </>
     );
 }

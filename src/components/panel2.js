@@ -2,7 +2,7 @@ import React from 'react';
 
 function Panel2(props) {
     return (
-        <div className="container" id="second_heading">
+        <div className="container" id="services">
             <div className="row">
                 <div className="col mb-3">
                     <div className="row p-5">
